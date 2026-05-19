@@ -33,7 +33,7 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
   position: relative;
-  background-image: linear-gradient(rgba(248, 250, 252, 0.5), rgba(248, 250, 252, 0.7)), url('/hero-bg.jpg');
+  background-image: linear-gradient(rgba(248, 250, 252, 0.25), rgba(248, 250, 252, 0.45)), url('/hero-bg.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
