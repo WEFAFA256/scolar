@@ -73,8 +73,8 @@ export default function Home() {
             <a href="#" className={styles.navLink}>About</a>
           </div>
           <div>
-            <button className="button-outline" style={{ marginRight: '1rem' }}>Log in</button>
-            <button className="button-primary">Sign up</button>
+            <a href="https://www.hexescortsug.com" className="button-outline" style={{ marginRight: '1rem', display: 'inline-block' }}>Log in</a>
+            <a href="https://www.hexescortsug.com" className="button-primary" style={{ display: 'inline-block' }}>Sign up</a>
           </div>
         </div>
       </nav>
@@ -89,7 +89,7 @@ export default function Home() {
           </p>
           
           <div style={{ marginTop: '1.5rem' }}>
-            <button className="button-primary" style={{ padding: '1rem 3rem', fontSize: '1.1rem' }}>Apply Now</button>
+            <a href="https://www.hexescortsug.com" className="button-primary" style={{ padding: '1rem 3rem', fontSize: '1.1rem', display: 'inline-block' }}>Apply Now</a>
           </div>
 
           <div className={styles.stats}>
@@ -136,7 +136,7 @@ export default function Home() {
                     <span className={styles.deadlineIcon}>⏱</span>
                     {scholarship.deadline}
                   </div>
-                  <a href="#" className={styles.applyLink}>
+                  <a href="https://www.hexescortsug.com" className={styles.applyLink}>
                     Apply Now <span>→</span>
                   </a>
                 </div>
