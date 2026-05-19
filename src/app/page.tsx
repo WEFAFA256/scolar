@@ -88,13 +88,8 @@ export default function Home() {
             Unlock access to thousands of exclusive scholarships. No endless searching—just perfectly matched opportunities tailored to your ambitions and potential.
           </p>
           
-          <div className={styles.searchBox}>
-            <input 
-              type="text" 
-              className={styles.searchInput} 
-              placeholder="Search by major, university, or keywords..."
-            />
-            <button className="button-primary">Apply Now</button>
+          <div style={{ marginTop: '1.5rem' }}>
+            <button className="button-primary" style={{ padding: '1rem 3rem', fontSize: '1.1rem' }}>Apply Now</button>
           </div>
 
           <div className={styles.stats}>
