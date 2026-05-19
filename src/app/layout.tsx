@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Study From Abroad",
+  title: "SFA scolarships",
   description: "Discover top scholarships for undergraduate and graduate studies. Apply to the best financial aid programs and ignite your academic future.",
 };
 
