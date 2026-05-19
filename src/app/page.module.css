@@ -7,7 +7,7 @@
   align-items: center;
   z-index: 100;
   border-bottom: 1px solid var(--border-color);
-  background: rgba(5, 5, 16, 0.7);
+  background: rgba(248, 250, 252, 0.7);
   backdrop-filter: blur(20px);
 }
 
@@ -89,7 +89,7 @@
   background: transparent;
   border: none;
   padding: 0 1.5rem;
-  color: white;
+  color: var(--text-main);
   outline: none;
   font-size: 1.1rem;
 }
@@ -228,14 +228,14 @@
 }
 
 .applyLink:hover {
-  color: white;
+  color: var(--text-main);
 }
 
 .footer {
   border-top: 1px solid var(--border-color);
   padding: 4rem 0 2rem;
   margin-top: 4rem;
-  background: rgba(0,0,0,0.2);
+  background: rgba(0,0,0,0.03);
 }
 
 .footerGrid {
@@ -255,7 +255,7 @@
 .footerColTitle {
   font-size: 1.1rem;
   margin-bottom: 1.5rem;
-  color: white;
+  color: var(--text-main);
 }
 
 .footerLinks {

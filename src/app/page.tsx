@@ -94,7 +94,7 @@ export default function Home() {
               className={styles.searchInput} 
               placeholder="Search by major, university, or keywords..."
             />
-            <button className="button-primary">Search</button>
+            <button className="button-primary">Apply Now</button>
           </div>
 
           <div className={styles.stats}>
