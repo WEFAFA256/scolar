@@ -64,7 +64,7 @@ export default function Home() {
         <div className={`container ${styles.navContainer}`}>
           <div className={styles.logo}>
             <span className={styles.logoIcon}>✦</span>
-            ScholarQuest
+            Study From Abroad
           </div>
           <div className={styles.navLinks}>
             <a href="#" className={styles.navLink}>Discover</a>
@@ -82,7 +82,7 @@ export default function Home() {
       <main className="container">
         <section className={styles.hero}>
           <h1 className={styles.heroTitle}>
-            Fuel Your Future with <span className="text-gradient">ScholarQuest</span>
+            Fuel Your Future with <span className="text-gradient">Study From Abroad</span>
           </h1>
           <p className={styles.heroSubtitle}>
             Unlock access to thousands of exclusive scholarships. No endless searching—just perfectly matched opportunities tailored to your ambitions and potential.
@@ -152,7 +152,7 @@ export default function Home() {
             <div>
               <div className={styles.logo}>
                 <span className={styles.logoIcon}>✦</span>
-                ScholarQuest
+                Study From Abroad
               </div>
               <p className={styles.footerDesc}>
                 Empowering the next generation of leaders, innovators, and creators by breaking down financial barriers to education across the globe.
@@ -191,7 +191,7 @@ export default function Home() {
           </div>
 
           <div className={styles.footerBottom}>
-            <p>&copy; {new Date().getFullYear()} ScholarQuest. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Study From Abroad. All rights reserved.</p>
             <div style={{ display: 'flex', gap: '1.5rem' }}>
               <a href="#">Privacy Policy</a>
               <a href="#">Terms of Service</a>
